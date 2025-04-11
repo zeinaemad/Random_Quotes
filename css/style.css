@@ -1,0 +1,58 @@
+/* Font Face  */
+@font-face {
+    font-family: Boldonse;
+    src: url(../Fonts/Boldonse-Regular.ttf);
+    font-weight: 500;
+}
+body {
+    background-image: url(../imgs/Flux_Dev_Create_a_mesmerizing_highresolution_image_with_a_pred_0.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: Boldonse;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: #fffcfbdc;
+    padding-bottom: 1.25rem;
+}
+.Card-Q{
+    backdrop-filter: blur(1.875rem);
+    box-shadow: 0px 0px 30px rgba(24, 24, 25, 0.37);
+    transform: translateY(170px);
+}
+.first-par{
+    font-family: Boldonse;
+    font-size: 10px;
+    color: rgb(185, 196, 196);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-top: .625rem;
+    padding-bottom: 1.25rem;
+}
+
+.bot1{
+    /* background-color: rgb(54, 13, 13); */
+    background: #390317;
+    background: radial-gradient(circle, rgba(57, 3, 23, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: rgba(255, 255, 255, 0.735);
+    border: solid rgba(255, 255, 255, 0.735);
+    border-radius: .375rem;
+    padding-block: .3125rem;
+    padding-inline: 2.5rem;
+}
+.bot1:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        
+        font-size: 40px;
+        line-height: 70px;
+        
+    }
+}
